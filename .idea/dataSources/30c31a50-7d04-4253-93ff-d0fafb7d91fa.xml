@@ -13,18 +13,18 @@
     <schema id="3" parent="1" name="information_schema">
       <Collation>utf8_general_ci</Collation>
     </schema>
-    <schema id="4" parent="1" name="library">
-      <Current>1</Current>
-      <Visible>1</Visible>
+    <schema id="4" parent="1" name="mysql">
       <Collation>latin1_swedish_ci</Collation>
     </schema>
-    <schema id="5" parent="1" name="mysql">
-      <Collation>latin1_swedish_ci</Collation>
-    </schema>
-    <schema id="6" parent="1" name="performance_schema">
+    <schema id="5" parent="1" name="performance_schema">
       <Collation>utf8_general_ci</Collation>
     </schema>
-    <schema id="7" parent="1" name="project">
+    <schema id="6" parent="1" name="project">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="7" parent="1" name="springlibrary">
+      <Current>1</Current>
+      <Visible>1</Visible>
       <Collation>utf8_general_ci</Collation>
     </schema>
     <schema id="8" parent="1" name="sys">
@@ -918,182 +918,256 @@
       <Charset>utf8mb4</Charset>
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
-    <table id="231" parent="4" name="author">
-      <Collation>utf8_general_ci</Collation>
-    </table>
-    <table id="232" parent="4" name="book">
-      <Collation>utf8_general_ci</Collation>
-    </table>
-    <table id="233" parent="4" name="genre">
-      <Collation>utf8_general_ci</Collation>
-    </table>
-    <table id="234" parent="4" name="publisher">
-      <Collation>utf8_general_ci</Collation>
-    </table>
-    <column id="235" parent="231" name="id">
+    <table id="231" parent="7" name="author"/>
+    <table id="232" parent="7" name="book"/>
+    <table id="233" parent="7" name="genre"/>
+    <table id="234" parent="7" name="publisher"/>
+    <table id="235" parent="7" name="vote"/>
+    <column id="236" parent="231" name="id">
       <Position>1</Position>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="236" parent="231" name="fio">
+    <column id="237" parent="231" name="fio">
       <Position>2</Position>
       <DataType>varchar(300)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="237" parent="231" name="birthday">
+    <column id="238" parent="231" name="birthday">
       <Position>3</Position>
       <DataType>date|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="238" parent="231" name="PRIMARY">
+    <key id="239" parent="231" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="239" parent="232" name="id">
+    <column id="240" parent="232" name="id">
       <Position>1</Position>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="240" parent="232" name="name">
+    <column id="241" parent="232" name="name">
       <Position>2</Position>
       <DataType>varchar(45)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="241" parent="232" name="content">
+    <column id="242" parent="232" name="content">
       <Position>3</Position>
       <DataType>longblob|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="242" parent="232" name="page_count">
+    <column id="243" parent="232" name="page_count">
       <Position>4</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="243" parent="232" name="isbn">
+    <column id="244" parent="232" name="isbn">
       <Position>5</Position>
       <DataType>varchar(100)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="244" parent="232" name="genre_id">
+    <column id="245" parent="232" name="genre_id">
       <Position>6</Position>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="245" parent="232" name="author_id">
+    <column id="246" parent="232" name="author_id">
       <Position>7</Position>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="246" parent="232" name="publish_year">
+    <column id="247" parent="232" name="publish_year">
       <Position>8</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="247" parent="232" name="publisher_id">
+    <column id="248" parent="232" name="publisher_id">
       <Position>9</Position>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="248" parent="232" name="image">
+    <column id="249" parent="232" name="image">
       <Position>10</Position>
       <DataType>longblob|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="249" parent="232" name="id_UNIQUE">
+    <column id="250" parent="232" name="descr">
+      <Position>11</Position>
+      <DataType>varchar(5000)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="251" parent="232" name="rating">
+      <Position>12</Position>
+      <DataType>int(5)|0s</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="252" parent="232" name="vote_count">
+      <Position>13</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="253" parent="232" name="id_UNIQUE">
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <index id="250" parent="232" name="isbn_UNIQUE">
+    <index id="254" parent="232" name="isbn_UNIQUE">
       <ColNames>isbn</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <index id="251" parent="232" name="fk_genre_idx">
+    <index id="255" parent="232" name="fk_genre_idx">
       <ColNames>genre_id</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="252" parent="232" name="fk_author_idx">
+    <index id="256" parent="232" name="fk_author_idx">
       <ColNames>author_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="253" parent="232" name="PRIMARY">
+    <index id="257" parent="232" name="fk_publiher_idx">
+      <ColNames>publisher_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="258" parent="232" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="254" parent="232" name="id_UNIQUE">
+    <key id="259" parent="232" name="id_UNIQUE">
       <ColNames>id</ColNames>
       <UnderlyingIndexName>id_UNIQUE</UnderlyingIndexName>
     </key>
-    <key id="255" parent="232" name="isbn_UNIQUE">
+    <key id="260" parent="232" name="isbn_UNIQUE">
       <ColNames>isbn</ColNames>
       <UnderlyingIndexName>isbn_UNIQUE</UnderlyingIndexName>
     </key>
-    <foreign-key id="256" parent="232" name="fk_genre">
+    <foreign-key id="261" parent="232" name="fk_genre">
       <ColNames>genre_id</ColNames>
-      <RefSchemaName>library</RefSchemaName>
+      <RefSchemaName>springlibrary</RefSchemaName>
       <RefTableName>genre</RefTableName>
       <RefColNames>id</RefColNames>
       <OnUpdate>cascade</OnUpdate>
     </foreign-key>
-    <foreign-key id="257" parent="232" name="fk_author">
+    <foreign-key id="262" parent="232" name="fk_author">
       <ColNames>author_id</ColNames>
-      <RefSchemaName>library</RefSchemaName>
+      <RefSchemaName>springlibrary</RefSchemaName>
       <RefTableName>author</RefTableName>
       <RefColNames>id</RefColNames>
       <OnUpdate>cascade</OnUpdate>
     </foreign-key>
-    <column id="258" parent="233" name="id">
+    <foreign-key id="263" parent="232" name="fk_publisher">
+      <ColNames>publisher_id</ColNames>
+      <RefSchemaName>springlibrary</RefSchemaName>
+      <RefTableName>publisher</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="264" parent="233" name="id">
       <Position>1</Position>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="259" parent="233" name="name">
+    <column id="265" parent="233" name="name">
       <Position>2</Position>
       <DataType>varchar(100)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="260" parent="233" name="PRIMARY">
+    <key id="266" parent="233" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="261" parent="234" name="id">
+    <column id="267" parent="234" name="id">
       <Position>1</Position>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="262" parent="234" name="name">
+    <column id="268" parent="234" name="name">
       <Position>2</Position>
       <DataType>varchar(100)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="263" parent="234" name="PRIMARY">
+    <key id="269" parent="234" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
+    <column id="270" parent="235" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="271" parent="235" name="value">
+      <Position>2</Position>
+      <DataType>int(5)|0s</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="272" parent="235" name="book_id">
+      <Position>3</Position>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="273" parent="235" name="username">
+      <Position>4</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="274" parent="235" name="id_UNIQUE">
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <index id="275" parent="235" name="fk_book_id_idx">
+      <ColNames>book_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="276" parent="235" name="fk_user_id_idx">
+      <ColNames>username</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="277" parent="235" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="278" parent="235" name="id_UNIQUE">
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>id_UNIQUE</UnderlyingIndexName>
+    </key>
+    <foreign-key id="279" parent="235" name="fk_book_id">
+      <ColNames>book_id</ColNames>
+      <RefSchemaName>springlibrary</RefSchemaName>
+      <RefTableName>book</RefTableName>
+      <RefColNames>id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
   </database-model>
 </dataSource>

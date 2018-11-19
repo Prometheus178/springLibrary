@@ -10,8 +10,10 @@ public class BookEntity {
     private int pageCount;
     private String isbn;
     private int publishYear;
-    private long publisherId;
     private byte[] image;
+    private String descr;
+    private Integer rating;
+    private Long voteCount;
 
     public long getId() {
         return id;
@@ -61,20 +63,36 @@ public class BookEntity {
         this.publishYear = publishYear;
     }
 
-    public long getPublisherId() {
-        return publisherId;
-    }
-
-    public void setPublisherId(long publisherId) {
-        this.publisherId = publisherId;
-    }
-
     public byte[] getImage() {
         return image;
     }
 
     public void setImage(byte[] image) {
         this.image = image;
+    }
+
+    public String getDescr() {
+        return descr;
+    }
+
+    public void setDescr(String descr) {
+        this.descr = descr;
+    }
+
+    public Integer getRating() {
+        return rating;
+    }
+
+    public void setRating(Integer rating) {
+        this.rating = rating;
+    }
+
+    public Long getVoteCount() {
+        return voteCount;
+    }
+
+    public void setVoteCount(Long voteCount) {
+        this.voteCount = voteCount;
     }
 
     @Override
@@ -85,16 +103,18 @@ public class BookEntity {
         return id == that.id &&
                 pageCount == that.pageCount &&
                 publishYear == that.publishYear &&
-                publisherId == that.publisherId &&
                 Objects.equals(name, that.name) &&
                 Arrays.equals(content, that.content) &&
                 Objects.equals(isbn, that.isbn) &&
-                Arrays.equals(image, that.image);
+                Arrays.equals(image, that.image) &&
+                Objects.equals(descr, that.descr) &&
+                Objects.equals(rating, that.rating) &&
+                Objects.equals(voteCount, that.voteCount);
     }
 
     @Override
     public int hashCode() {
-        int result = Objects.hash(id, name, pageCount, isbn, publishYear, publisherId);
+        int result = Objects.hash(id, name, pageCount, isbn, publishYear, descr, rating, voteCount);
         result = 31 * result + Arrays.hashCode(content);
         result = 31 * result + Arrays.hashCode(image);
         return result;
