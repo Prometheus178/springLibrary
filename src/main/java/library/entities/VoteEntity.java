@@ -1,5 +1,6 @@
 package library.entities;
 
+import javax.persistence.Entity;
 import java.util.Objects;
 
 public class VoteEntity {

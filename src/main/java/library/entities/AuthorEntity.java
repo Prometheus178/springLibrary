@@ -1,8 +1,9 @@
 package library.entities;
 
+import javax.persistence.Entity;
 import java.sql.Date;
 import java.util.Objects;
-
+@Entity
 public class AuthorEntity {
     private long id;
     private String fio;
