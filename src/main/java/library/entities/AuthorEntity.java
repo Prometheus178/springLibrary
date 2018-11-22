@@ -1,10 +1,12 @@
 package library.entities;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.sql.Date;
 import java.util.Objects;
-@Entity
+
 public class AuthorEntity {
+    @Id
     private long id;
     private String fio;
     private Date birthday;

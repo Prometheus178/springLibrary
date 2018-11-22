@@ -7,23 +7,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="312defcd-f15b-4b66-a607-d07281817cef" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/LibraryFlow_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/LibraryFlow_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_primefaces_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_primefaces_5_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_3_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_9_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LibraryFlow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryFlow.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/library/entities/AuthorEntity.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/AuthorEntity.hbm.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/library/entities/AuthorEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/entities/AuthorEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/library/entities/BookEntity.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/BookEntity.hbm.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/library/entities/BookEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/entities/BookEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/library/entities/GenreEntity.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/GenreEntity.hbm.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/library/entities/GenreEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/entities/GenreEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/library/entities/PublisherEntity.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/PublisherEntity.hbm.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/library/entities/PublisherEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/entities/PublisherEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/library/entities/VoteEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/entities/VoteEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/library/entities/VoteEntity.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/VoteEntity.hbm.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/classes/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/config/spring/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/config/spring/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebApp/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/classes/library/entities/AuthorEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/classes/library/entities/AuthorEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/classes/library/entities/BookEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/classes/library/entities/BookEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/classes/library/entities/GenreEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/classes/library/entities/GenreEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/classes/library/entities/PublisherEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/classes/library/entities/PublisherEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/lib/primefaces-5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-4.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.1.5.RELEASE.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/library/entities/AuthorEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/library/entities/AuthorEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/library/entities/BookEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/library/entities/BookEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/library/entities/GenreEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/library/entities/GenreEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/library/entities/PublisherEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/library/entities/PublisherEntity.class" afterDir="false" />
     </list>
     <ignored path="LibraryFlow.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,53 +86,54 @@
     <session id="-875145586">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.108" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.85" value="1" />
+          <entry key="project.open.time.85" value="2" />
+          <entry key="project.open.time.88" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
           <entry key="iml" value="1" />
-          <entry key="java" value="13" />
+          <entry key="java" value="20" />
           <entry key="properties" value="4" />
           <entry key="sql" value="1" />
           <entry key="xhtml" value="4" />
-          <entry key="xml" value="42" />
+          <entry key="xml" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="13" />
+          <entry key="JAVA" value="20" />
           <entry key="Properties" value="4" />
           <entry key="Scratch" value="1" />
           <entry key="XHTML" value="4" />
-          <entry key="XML" value="42" />
+          <entry key="XML" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="72" />
+          <entry key="java" value="78" />
           <entry key="txt" value="16" />
           <entry key="xhtml" value="2" />
-          <entry key="xml" value="564" />
+          <entry key="xml" value="632" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="72" />
+          <entry key="JAVA" value="78" />
           <entry key="PLAIN_TEXT" value="16" />
           <entry key="XHTML" value="2" />
-          <entry key="XML" value="564" />
+          <entry key="XML" value="632" />
         </counts>
       </usages-collector>
     </session>
@@ -114,22 +144,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/dispatcher-servlet.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/library/beans/TestBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="176">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
                 <element signature="e#361#362#0" expanded="true" />
               </folding>
             </state>
@@ -137,19 +157,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/library/entities/VoteEntity.hbm.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            <state relative-caret-position="120">
+              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+              <folding>
+                <element signature="e#373#378#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/main.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/AuthorEntity.hbm.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            <state relative-caret-position="90">
+              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/library/entities/BookEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -157,8 +198,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+            <state relative-caret-position="-1651">
+              <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/BookEntity.hbm.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -166,50 +216,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/library/entities/AuthorEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="61" selection-start-line="12" selection-start-column="1" selection-end-line="16" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/library/entities/GenreEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/library/entities/PublisherEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/library/entities/VoteEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="104">
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -248,18 +256,18 @@
         <option value="$PROJECT_DIR$/src/main/java/beans/TestBean.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/flows/main.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/config/spring/dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/library/beans/TestBean.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/glassfish-web.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/library/entities/AuthorEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/library/entities/BookEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/library/entities/GenreEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/library/entities/PublisherEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/library/entities/VoteEntity.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/library/entities/BookEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/library/entities/GenreEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/library/entities/PublisherEntity.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/library/beans/TestBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/library/entities/AuthorEntity.java" />
       </list>
     </option>
   </component>
@@ -313,6 +321,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
@@ -338,79 +347,12 @@
               <item name="LibraryFlow" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LibraryFlow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LibraryFlow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="library" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LibraryFlow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LibraryFlow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="library" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LibraryFlow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LibraryFlow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="library" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LibraryFlow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LibraryFlow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LibraryFlow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LibraryFlow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LibraryFlow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LibraryFlow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LibraryFlow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LibraryFlow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LibraryFlow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LibraryFlow" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="flows" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -428,7 +370,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542746186048" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542916691299" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="options.lastSelected" value="File.Encoding" />
@@ -441,23 +383,23 @@
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main" />
-      <recent name="$PROJECT_DIR$/src/main/java/library" />
-      <recent name="C:\Users\Tim\IdeaProjects\LibraryFlow\web\WEB-INF\locales" />
-      <recent name="C:\Users\Tim\IdeaProjects\LibraryFlow\src\main\java\nls" />
-      <recent name="C:\Users\Tim\IdeaProjects\LibraryFlow\src\main\resources" />
-    </key>
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="library.entities" />
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/WEB-INF/locales" />
       <recent name="C:\Users\Tim\IdeaProjects\LibraryFlow\web\WEB-INF\locales" />
       <recent name="C:\Users\Tim\IdeaProjects\LibraryFlow\src" />
       <recent name="C:\Users\Tim\IdeaProjects\LibraryFlow\src\main\resources" />
       <recent name="C:\Users\Tim\IdeaProjects\LibraryFlow\src\main\java\ru\javabegin\training\springlibrary" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="library.entities" />
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/main/java/library" />
+      <recent name="C:\Users\Tim\IdeaProjects\LibraryFlow\web\WEB-INF\locales" />
+      <recent name="C:\Users\Tim\IdeaProjects\LibraryFlow\src\main\java\nls" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -794,12 +736,14 @@
       <workItem from="1542559327234" duration="1847000" />
       <workItem from="1542649564382" duration="1041000" />
       <workItem from="1542653138137" duration="1969000" />
-      <workItem from="1542740321107" duration="5730000" />
+      <workItem from="1542740321107" duration="6040000" />
+      <workItem from="1542832604512" duration="698000" />
+      <workItem from="1542910557742" duration="6576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37704000" />
+    <option name="totallyTimeSpent" value="45288000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -812,30 +756,29 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1366" height="738" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.59289616" visible="true" weight="0.20227273" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8278689" visible="true" weight="0.20227273" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Web" order="3" sideWeight="0.5012225" side_tool="true" weight="0.21439394" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Palette&#9;" order="5" />
-      <window_info id="Persistence" order="6" sideWeight="0.40710384" side_tool="true" visible="true" weight="0.20227273" />
+      <window_info id="Persistence" order="6" sideWeight="0.17213115" side_tool="true" visible="true" weight="0.20227273" />
       <window_info id="Image Layers" order="7" />
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299401" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924242" weight="0.46885246" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49924242" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924242" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007576" side_tool="true" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007576" side_tool="true" weight="0.21803279" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="bottom" id="Application Servers" order="9" weight="0.32786885" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Spring" order="11" weight="0.3295082" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.21967213" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49924242" weight="0.21803279" />
       <window_info anchor="bottom" id="IDEtalk Messages" order="13" />
       <window_info anchor="bottom" id="Changes" order="14" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.3299401" />
@@ -853,6 +796,46 @@
       <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="11" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.59180325" visible="true" weight="0.20227273" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Web" order="3" sideWeight="0.5012225" side_tool="true" weight="0.21439394" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Palette&#9;" order="5" />
+      <window_info id="Persistence" order="6" sideWeight="0.40752864" side_tool="true" visible="true" weight="0.20227273" />
+      <window_info id="Image Layers" order="7" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3299401" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924242" weight="0.46885246" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924242" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007576" side_tool="true" weight="0.4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="8" />
+      <window_info anchor="bottom" id="Application Servers" order="9" weight="0.32786885" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Spring" order="11" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.21931261" />
+      <window_info anchor="bottom" id="IDEtalk Messages" order="13" />
+      <window_info anchor="bottom" id="Changes" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.3299401" />
+      <window_info anchor="bottom" id="Database Changes" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32954547" />
+      <window_info anchor="right" id="Designer" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.22878788" />
+      <window_info anchor="right" id="JSF" order="7" weight="0.32954547" />
+      <window_info anchor="right" id="IDEtalk" order="8" />
+      <window_info anchor="right" id="Google Cloud Storage" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Capture Analysis" order="11" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -916,10 +899,10 @@
       <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="ResourceBundle" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/library/entities/GenreEntity.hbm.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/GenreEntity.hbm.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/library/entities/PublisherEntity.hbm.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/PublisherEntity.hbm.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/config/jsf/faces-config.xml">
@@ -961,17 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
           <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding>
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-179">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -986,45 +958,34 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/glassfish-web.xml">
+      <provider editor-type-id="com.intellij.javaee.oss.glassfish.editor.GlassfishWebRootProvider" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.javaee.oss.glassfish.editor.GlassfishWebRootProvider" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/library/entities/BookEntity.hbm.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        <state relative-caret-position="80">
+          <caret line="58" column="26" lean-forward="true" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/library/entities/AuthorEntity.hbm.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/library/entities/PublisherEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/library/entities/BookEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/library/entities/AuthorEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="7" />
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/library/entities/GenreEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1033,35 +994,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/library/entities/VoteEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="91">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/library/entities/PublisherEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/library/entities/VoteEntity.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -1072,29 +1009,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/library/beans/TestBean.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/VoteEntity.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="150">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/BookEntity.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1651">
+          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/library/entities/BookEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/library/entities/AuthorEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="61" selection-start-line="12" selection-start-column="1" selection-end-line="16" selection-end-column="61" />
+        <state relative-caret-position="120">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <folding>
+            <element signature="e#373#378#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/dispatcher-servlet.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/AuthorEntity.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        <state relative-caret-position="90">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/library/beans/TestBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

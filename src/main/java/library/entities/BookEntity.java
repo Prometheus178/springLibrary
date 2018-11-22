@@ -3,7 +3,7 @@ package library.entities;
 import javax.persistence.Entity;
 import java.util.Arrays;
 import java.util.Objects;
-@Entity
+
 public class BookEntity {
     private long id;
     private String name;

@@ -2,7 +2,7 @@ package library.entities;
 
 import javax.persistence.Entity;
 import java.util.Objects;
-@Entity
+
 public class GenreEntity {
     private long id;
     private String name;
