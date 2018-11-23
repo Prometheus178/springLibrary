@@ -11,7 +11,6 @@
           <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
         </webroots>
         <sourceRoots>
-          <root url="file://$MODULE_DIR$/src/main/java" />
           <root url="file://$MODULE_DIR$/src/main/resources" />
         </sourceRoots>
       </configuration>
@@ -23,7 +22,7 @@
       <configuration>
         <datasource-map>
           <unit-entry name="hibernate.cfg.xml" value="30c31a50-7d04-4253-93ff-d0fafb7d91fa" />
-          <unit-entry name="sessionFactory" />
+          <unit-entry name="sessionFactory" value="30c31a50-7d04-4253-93ff-d0fafb7d91fa" />
         </datasource-map>
         <naming-strategy-map />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/main/resources/hibernate.cfg.xml" />

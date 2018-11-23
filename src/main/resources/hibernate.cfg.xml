@@ -10,10 +10,10 @@
     <property name="hibernate.connection.username">root</property>
     <property name="hibernate.connection.password">root</property>
     <property name="hibernate.show_sql">true</property>
-    <mapping resource="AuthorEntity.hbm.xml"/>
-    <mapping resource="BookEntity.hbm.xml"/>
-    <mapping resource="GenreEntity.hbm.xml"/>
-    <mapping resource="PublisherEntity.hbm.xml"/>
-    <mapping resource="VoteEntity.hbm.xml"/>
+    <mapping resource="library.entities/AuthorEntity.hbm.xml"/>
+    <mapping resource="library.entities/BookEntity.hbm.xml"/>
+    <mapping resource="library.entities/GenreEntity.hbm.xml"/>
+    <mapping resource="library.entities/PublisherEntity.hbm.xml"/>
+    <mapping resource="library.entities/VoteEntity.hbm.xml"/>
   </session-factory>
 </hibernate-configuration>

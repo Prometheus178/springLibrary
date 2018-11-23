@@ -6,6 +6,9 @@ import java.util.Objects;
 
 public class BookEntity {
     private long id;
+    private AuthorEntity author;
+    private GenreEntity genre;
+    private PublisherEntity publisher;
     private String name;
     private byte[] content;
     private int pageCount;
@@ -94,6 +97,32 @@ public class BookEntity {
 
     public void setVoteCount(Long voteCount) {
         this.voteCount = voteCount;
+    }
+
+
+
+    public AuthorEntity getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(AuthorEntity author) {
+        this.author = author;
+    }
+
+    public GenreEntity getGenre() {
+        return genre;
+    }
+
+    public void setGenre(GenreEntity genre) {
+        this.genre = genre;
+    }
+
+    public PublisherEntity getPublisher() {
+        return publisher;
+    }
+
+    public void setPublisher(PublisherEntity publisher) {
+        this.publisher = publisher;
     }
 
     @Override

@@ -6,6 +6,16 @@
 
     <class name="library.entities.BookEntity" table="book" schema="springlibrary">
         <id name="id" column="id"/>
+        <many-to-one class="library.entities.AuthorEntity" fetch="join" name="author" lazy="false">
+            <column name="author_id" not-null="true"/>
+        </many-to-one>
+        <many-to-one class="library.entities.GenreEntity" fetch="join" name="genre" lazy="false">
+            <column name="genre_id" not-null="true"/>
+        </many-to-one>
+        <many-to-one class="library.entities.PublisherEntity" fetch="join" name="publisher" lazy="false">
+            <column name="publisher_id" not-null="true"/>
+        </many-to-one>
+
         <property name="name" column="name"/>
         <property name="content" column="content"/>
         <property name="pageCount" column="page_count"/>
