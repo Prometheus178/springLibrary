@@ -7,10 +7,322 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="312defcd-f15b-4b66-a607-d07281817cef" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/library/dao/impl/GenreDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/library/dao/interfaces/GenreDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/library/objects/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/footer.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/genres.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/header.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/letters.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/library.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/locales.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/logo.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/search.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/authorization.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/add.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/ajax_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/book.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/button-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/button_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/down-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/en/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/en/upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/eng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/facebook.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/feedback.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/lib.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/library.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/load-pdf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/pdf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/pluse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/read-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/recycle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/required.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/ru/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/ru/upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/rus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/search.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/select-button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/select.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/splash.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/submit.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/usa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/vk.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/library.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-bg_flat_0_2d5972_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-bg_flat_0_4f4f4f_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-bg_flat_100_ffffff_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-bg_highlight-hard_80_85b2cb_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-bg_highlight-hard_80_c4c4c4_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-bg_highlight-hard_80_e3e3e3_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-bg_highlight-soft_100_c4c4c4_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-bg_highlight-soft_75_85b2cb_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-bg_inset-hard_65_85b2cb_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-bg_inset-hard_65_c4c4c4_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-bg_inset-soft_95_fef1ec_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-icons_2d5972_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-icons_38667f_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-icons_3a6983_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-icons_616161_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-icons_898989_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/charts/charts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/charts/charts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/charts/jqplot.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/clock/clock.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/clock/clock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/colorpicker/colorpicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/colorpicker/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/colorpicker/images/colorpicker_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/colorpicker/images/colorpicker_hex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/colorpicker/images/colorpicker_hsb_b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/colorpicker/images/colorpicker_hsb_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/colorpicker/images/colorpicker_hsb_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/colorpicker/images/colorpicker_indic.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/colorpicker/images/colorpicker_overlay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/colorpicker/images/colorpicker_rgb_b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/colorpicker/images/colorpicker_rgb_g.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/colorpicker/images/colorpicker_rgb_r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/colorpicker/images/colorpicker_select.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/dock/assets/iepngfix.htc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/dock/dock.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/dock/dock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/dynamiccontent.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/editor/editor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/editor/editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/editor/images/buttons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/editor/images/toolbar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/fileupload/fileupload.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/fileupload/fileupload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/fileupload/ie-anim.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/fileupload/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/forms/password-meter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/galleria/galleria.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/galleria/galleria.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/gmap/gmap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/hotkey/hotkey.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/idlemonitor/idlemonitor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/imagecompare/handle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/imagecompare/imagecompare.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/imagecompare/lt-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/imagecompare/rt-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/imagecropper/crop.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/imagecropper/imagecropper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/imagecropper/imagecropper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/imageswitch/imageswitch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/jquery/extensions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/jquery/jquery-plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/keyboard/keyboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/keyboard/keyboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/layout/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/layout/layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/lightbox/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/log/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/log/log.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/log/log.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/log/panel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/messages/messages.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/mindmap/mindmap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/mousewheel/jquery.mousewheel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/photocam/jscam.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/photocam/photocam.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/photocam/photocam.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/primefaces.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/primefaces.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/printer/printer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/push/push.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/raphael/raphael.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/rating/delete.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/rating/rating.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/rating/star.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/css/authorization.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/css/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/add.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/ajax_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/book.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/button-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/button_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/down-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/en/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/en/upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/eng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/facebook.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/feedback.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/lib.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/library.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/load-pdf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/pdf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/pluse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/read-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/recycle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/required.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/ru/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/ru/upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/rus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/search.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/select-button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/select.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/splash.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/submit.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/usa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/vk.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/js/library.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-bg_flat_0_2d5972_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-bg_flat_0_4f4f4f_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-bg_flat_100_ffffff_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-bg_highlight-hard_80_85b2cb_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-bg_highlight-hard_80_c4c4c4_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-bg_highlight-hard_80_e3e3e3_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-bg_highlight-soft_100_c4c4c4_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-bg_highlight-soft_75_85b2cb_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-bg_inset-hard_65_85b2cb_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-bg_inset-hard_65_c4c4c4_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-bg_inset-soft_95_fef1ec_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-icons_2d5972_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-icons_38667f_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-icons_3a6983_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-icons_616161_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-icons_898989_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/charts/charts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/charts/charts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/charts/jqplot.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/clock/clock.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/clock/clock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/colorpicker/colorpicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/colorpicker/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/colorpicker/images/colorpicker_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/colorpicker/images/colorpicker_hex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/colorpicker/images/colorpicker_hsb_b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/colorpicker/images/colorpicker_hsb_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/colorpicker/images/colorpicker_hsb_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/colorpicker/images/colorpicker_indic.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/colorpicker/images/colorpicker_overlay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/colorpicker/images/colorpicker_rgb_b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/colorpicker/images/colorpicker_rgb_g.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/colorpicker/images/colorpicker_rgb_r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/colorpicker/images/colorpicker_select.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/dock/assets/iepngfix.htc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/dock/dock.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/dock/dock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/dynamiccontent.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/editor/editor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/editor/editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/editor/images/buttons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/editor/images/toolbar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/fileupload/fileupload.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/fileupload/fileupload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/fileupload/ie-anim.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/fileupload/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/forms/password-meter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/galleria/galleria.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/galleria/galleria.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/gmap/gmap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/hotkey/hotkey.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/idlemonitor/idlemonitor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/imagecompare/handle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/imagecompare/imagecompare.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/imagecompare/lt-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/imagecompare/rt-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/imagecropper/crop.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/imagecropper/imagecropper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/imagecropper/imagecropper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/imageswitch/imageswitch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/jquery/extensions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/jquery/jquery-plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/keyboard/keyboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/keyboard/keyboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/layout/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/layout/layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/lightbox/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/log/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/log/log.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/log/log.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/log/panel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/messages/messages.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/mindmap/mindmap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/mousewheel/jquery.mousewheel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/photocam/jscam.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/photocam/photocam.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/photocam/photocam.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/primefaces.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/primefaces.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/printer/printer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/push/push.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/raphael/raphael.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/rating/delete.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/rating/rating.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/rating/star.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/ring/ring.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/ring/ring.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/schedule/schedule.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/schedule/schedule.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/sheet/sheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/sheet/sheet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/spacer/dot_clear.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/stack/stack.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/stack/stack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/terminal/terminal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/terminal/terminal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/tree/images/line.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/treetable/images/toggle-collapse-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/treetable/images/toggle-collapse-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/treetable/images/toggle-expand-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/treetable/images/toggle-expand-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/watermark/watermark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/watermark/watermark.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/ring/ring.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/ring/ring.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/schedule/schedule.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/schedule/schedule.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/sheet/sheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/sheet/sheet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/spacer/dot_clear.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/stack/stack.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/stack/stack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/terminal/terminal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/terminal/terminal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/tree/images/line.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/treetable/images/toggle-collapse-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/treetable/images/toggle-collapse-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/treetable/images/toggle-expand-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/treetable/images/toggle-expand-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/watermark/watermark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/watermark/watermark.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/library/dao/impl/BookDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/library/dao/impl/BookDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/classes/library/dao/interfaces/impl/BookDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/classes/library/dao/interfaces/impl/BookDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/library/dao/interfaces/impl/BookDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/library/dao/interfaces/impl/BookDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/webflow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/webflow.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/main.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/main.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/classes/library/dao/interfaces/impl/BookDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/config/spring/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/config/spring/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/config/spring/webflow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/config/spring/webflow.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/flows/main.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/flows/main.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/flows/main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/LibraryFlow-1.0-SNAPSHOT/WEB-INF/flows/main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/library/dao/interfaces/impl/BookDAOImpl.class" beforeDir="false" />
     </list>
     <ignored path="LibraryFlow.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -109,43 +421,51 @@
         <counts>
           <entry key="author" value="2" />
           <entry key="class" value="7" />
+          <entry key="dtd" value="1" />
+          <entry key="html" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="25" />
+          <entry key="java" value="32" />
+          <entry key="js" value="1" />
+          <entry key="png" value="2" />
           <entry key="properties" value="4" />
           <entry key="sql" value="2" />
-          <entry key="xhtml" value="5" />
-          <entry key="xml" value="55" />
+          <entry key="xhtml" value="16" />
+          <entry key="xml" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="7" />
+          <entry key="DTD" value="1" />
           <entry key="Database Element" value="2" />
+          <entry key="HTML" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="25" />
+          <entry key="Image" value="2" />
+          <entry key="JAVA" value="32" />
+          <entry key="JavaScript" value="1" />
           <entry key="Properties" value="4" />
           <entry key="Scratch" value="2" />
-          <entry key="XHTML" value="5" />
-          <entry key="XML" value="55" />
+          <entry key="XHTML" value="16" />
+          <entry key="XML" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="12" />
-          <entry key="java" value="651" />
+          <entry key="java" value="780" />
           <entry key="sql" value="9" />
           <entry key="txt" value="16" />
-          <entry key="xhtml" value="2" />
-          <entry key="xml" value="902" />
+          <entry key="xhtml" value="165" />
+          <entry key="xml" value="924" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="651" />
+          <entry key="JAVA" value="780" />
           <entry key="PLAIN_TEXT" value="28" />
           <entry key="Scratch" value="9" />
-          <entry key="XHTML" value="2" />
-          <entry key="XML" value="902" />
+          <entry key="XHTML" value="165" />
+          <entry key="XML" value="924" />
         </counts>
       </usages-collector>
     </session>
@@ -158,7 +478,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/library/dao/interfaces/BookDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="122">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -167,11 +487,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/library/dao/interfaces/GenreDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/library/dao/impl/BookDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-255">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="-10">
+              <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -180,79 +512,63 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.3.8.Final/hibernate-core-4.3.8.Final.jar!/org/hibernate/property/BasicPropertyAccessor.class">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/main.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3225">
-              <caret line="244" selection-start-line="244" selection-end-line="244" />
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.3.8.Final/hibernate-core-4.3.8.Final.jar!/org/hibernate/transform/AliasToBeanResultTransformer.class">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/genres.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="195">
+              <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Thread.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/webflow.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10380">
-              <caret line="747" selection-start-line="747" selection-end-line="747" />
+            <state relative-caret-position="240">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/dispatcher-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.3.8.Final/hibernate-core-4.3.8.Final.jar!/org/hibernate/loader/criteria/CriteriaLoader.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="85" selection-start-line="85" selection-end-line="85" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/header.xhtml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.3.8.Final/hibernate-core-4.3.8.Final.jar!/org/hibernate/loader/Loader.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/library/dao/impl/GenreDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5640">
-              <caret line="470" selection-start-line="470" selection-end-line="470" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/library.entities/BookEntity.hbm.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/library/entities/BookEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
-              <folding>
-                <element signature="e#714#715#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/library/entities/AuthorEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="173">
+              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -262,8 +578,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -291,7 +607,6 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/config/spring/dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/glassfish-web.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/library/entities/VoteEntity.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/java/library/entities/GenreEntity.java" />
@@ -304,11 +619,19 @@
         <option value="$PROJECT_DIR$/src/main/java/library/interfaces/LibraryDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/library/impl/ImplLibraryDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/library/dao/interfaces/impl/ImplLibraryDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/main.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/java/library/entities/BookEntity.java" />
         <option value="$PROJECT_DIR$/src/main/resources/library.entities/BookEntity.hbm.xml" />
         <option value="$PROJECT_DIR$/src/main/java/library/dao/impl/BookDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/footer.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/library/objects/Utils.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/main.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/webflow.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/main.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/library/dao/interfaces/GenreDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/library/dao/impl/GenreDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/genres.xhtml" />
       </list>
     </option>
   </component>
@@ -349,10 +672,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1824" />
-    <option name="height" value="1098" />
+    <option name="y" value="30" />
+    <option name="width" value="683" />
+    <option name="height" value="738" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -429,6 +751,15 @@
               <item name="LibraryFlow" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LibraryFlow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LibraryFlow" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -474,6 +805,15 @@
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="flows" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LibraryFlow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LibraryFlow" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -498,10 +838,10 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543009815596" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543056030762" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Документы/LibraryFlow_26" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Документы/LibraryFlow_27" />
     <property name="options.lastSelected" value="File.Encoding" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -512,26 +852,26 @@
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="library.dao" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/web/WEB-INF/locales" />
-      <recent name="C:\Users\Tim\IdeaProjects\LibraryFlow\web\WEB-INF\locales" />
-      <recent name="C:\Users\Tim\IdeaProjects\LibraryFlow\src" />
-      <recent name="C:\Users\Tim\IdeaProjects\LibraryFlow\src\main\resources" />
-      <recent name="C:\Users\Tim\IdeaProjects\LibraryFlow\src\main\java\ru\javabegin\training\springlibrary" />
-    </key>
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="library.entities" />
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/library/dao" />
       <recent name="$PROJECT_DIR$/src/main/resources/library.entities" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$/src/main/java/library" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="library.dao" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="library.entities" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/web/WEB-INF/locales" />
+      <recent name="C:\Users\Tim\IdeaProjects\LibraryFlow\web\WEB-INF\locales" />
+      <recent name="C:\Users\Tim\IdeaProjects\LibraryFlow\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -874,12 +1214,12 @@
       <workItem from="1542991310931" duration="3091000" />
       <workItem from="1542999495894" duration="2096000" />
       <workItem from="1543001715278" duration="6104000" />
-      <workItem from="1543048889136" duration="1377000" />
+      <workItem from="1543048889136" duration="7493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61508000" />
+    <option name="totallyTimeSpent" value="67624000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -894,7 +1234,7 @@
     <frame x="0" y="30" width="1366" height="738" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.68358207" visible="true" weight="0.20681818" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.68358207" visible="true" weight="0.20681818" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Web" order="3" sideWeight="0.5012225" side_tool="true" weight="0.21439394" />
@@ -905,7 +1245,7 @@
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299401" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924242" weight="0.40491804" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924242" visible="true" weight="0.40491804" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924242" weight="0.3786885" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1006,40 +1346,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.1.5.RELEASE/spring-context-4.1.5.RELEASE.jar!/org/springframework/context/support/ReloadableResourceBundleMessageSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/LibraryFlow/WEB-INF/glassfish-web.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/locales/messages_en.properties">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="ResourceBundle" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/locales/messages_ru.properties">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="ResourceBundle" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/locales/messages.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="ResourceBundle" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/library.entities/GenreEntity.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/library.entities/PublisherEntity.hbm.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1075,9 +1381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/glassfish-web.xml">
       <provider editor-type-id="com.intellij.javaee.oss.glassfish.editor.GlassfishWebRootProvider" />
       <provider selected="true" editor-type-id="text-editor">
@@ -1090,13 +1393,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/library/entities/GenreEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -1115,13 +1411,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/library/beans/TestBean.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://30c31a50-7d04-4253-93ff-d0fafb7d91fa/schema/springlibrary/table/author">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1150,34 +1439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/webflow.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/main.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/library.entities/AuthorEntity.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1191,16 +1452,6 @@
           <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
           <folding>
             <element signature="e#373#378#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/library/dao/interfaces/BookDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1267,13 +1518,179 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/library/dao/impl/BookDAOImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/library.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="75">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/images/download.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/images/edit.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/standardSchemas/xhtml1-transitional.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="134" column="2" selection-start-line="134" selection-start-column="2" selection-end-line="134" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/footer.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/letters.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/locales.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="25" column="88" lean-forward="true" selection-start-line="25" selection-start-column="88" selection-end-line="25" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/logo.xhtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/search.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/library/objects/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/library.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/library/entities/GenreEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/library.entities/GenreEntity.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="59" lean-forward="true" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/main.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/header.xhtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/library/dao/interfaces/GenreDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/library/dao/interfaces/BookDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/library/dao/impl/BookDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/library/dao/impl/GenreDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/genres.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/webflow.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
         </state>
       </provider>
     </entry>
