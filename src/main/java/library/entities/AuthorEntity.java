@@ -49,4 +49,9 @@ public class AuthorEntity {
     public int hashCode() {
         return Objects.hash(id, fio, birthday);
     }
+
+    @Override
+    public String toString() {
+        return fio;
+    }
 }
