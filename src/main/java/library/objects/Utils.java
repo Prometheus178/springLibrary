@@ -14,7 +14,7 @@ public class Utils {
 
     private Map<String, SearchType> searchTypeList = new HashMap<>();
     private SearchType selectedSearchType = SearchType.TITLE;
-
+    private String searchString;
     @Autowired
     private MessageSource msg;
     private Character[] letters = new Character[]{'А', 'Б', 'В', 'Г', 'Д', 'Е', 'Ё', 'Ж', 'З', 'И', 'Й', 'К', 'Л', 'М',
@@ -35,6 +35,6 @@ public class Utils {
     }
 
     public void setSelectedSearchType(SearchType selectedSearchType) {
-        this.selectedSearchType = selectedSearchType;
+        this.searchTypeList = searchTypeList;
     }
 }
