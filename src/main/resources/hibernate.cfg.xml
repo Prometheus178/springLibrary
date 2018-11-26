@@ -1,10 +1,12 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE hibernate-configuration PUBLIC
     "-//Hibernate/Hibernate Configuration DTD//EN"
     "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
   <session-factory>
-    <property name="connection.url">jdbc:mysql://localhost:3306/springlibrary?useLegacyDatetimeCode=false&amp;serverTimezone=UTC&amp;useSSL=false&amp;characterEncoding=UTF-8</property>
+    <!--characterEncoding=UTF-8&amp;-->
+    <!--useUnicode=true&amp;connectionCollation=utf8_general_ci&amp;characterSetResults=utf8&amp;-->
+    <property name="connection.url">jdbc:mysql://localhost:3306/springlibrary?useUnicode=true&amp;characterEncoding=UTF-8&amp;characterSetResults=UTF-8&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC&amp;useSSL=false</property>
     <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
     <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
     <property name="hibernate.connection.username">root</property>
@@ -17,3 +19,4 @@
     <mapping resource="library.entities/VoteEntity.hbm.xml"/>
   </session-factory>
 </hibernate-configuration>
+
