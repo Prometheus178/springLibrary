@@ -5,11 +5,13 @@ import library.entities.AuthorEntity;
 import library.entities.BookEntity;
 import library.enums.SearchType;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-@Component
+@Component("libraryFacade")
+@Scope("singleton")
 public class LibraryFacade {
     @Autowired
     private BookDAO bookDAO;
