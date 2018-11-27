@@ -18,7 +18,14 @@
         <!--<res-auth>Container</res-auth>-->
         <!--<res-sharing-scope>Shareable</res-sharing-scope>-->
     <!--</resource-ref>-->
-
+    <servlet>
+        <servlet-name>ShowImage</servlet-name>
+        <servlet-class>library.servlets.ShowImage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>ShowImage</servlet-name>
+    <url-pattern>/ShowImage</url-pattern>
+    </servlet-mapping>
     <servlet>
         <servlet-name>dispatcher</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>

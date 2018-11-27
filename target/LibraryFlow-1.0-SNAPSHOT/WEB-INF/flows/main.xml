@@ -4,9 +4,15 @@
       xsi:schemaLocation="http://www.springframework.org/schema/webflow http://www.springframework.org/schema/webflow/spring-webflow-2.0.xsd">
 
     <view-state id="main">
-        <!--<on-render>-->
-            <!--<evaluate expression="bookDAOImpl.books"/>-->
-        <!--</on-render>-->
+        <transition on="searchByLetter">
+            <evaluate expression="libraryFacade.searchBookByLetter()"/>
+        </transition>
+        <transition on="searchByGenre">
+            <evaluate expression="libraryFacade.searchByGenre()"/>
+        </transition>
+        <transition on="searchByText">
+            <evaluate expression="libraryFacade.searchByText()"/>
+        </transition>
     </view-state>
 
 

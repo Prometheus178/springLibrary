@@ -11,6 +11,15 @@ public class AuthorEntity {
     private String fio;
     private Date birthday;
 
+    public AuthorEntity() {
+    }
+
+    public AuthorEntity(String fio) {
+        this.fio = fio;
+    }
+
+
+
     public long getId() {
         return id;
     }
