@@ -13,5 +13,5 @@ public interface BookDAO {
     List<BookEntity> getBooks(String bookName);
     List<BookEntity> getBooks(GenreEntity genre);
     List<BookEntity> getBooks(Character letters);
-
+    Object getFieldValue(Long id, String fieldName);
 }
